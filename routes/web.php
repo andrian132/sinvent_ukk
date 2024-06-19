@@ -15,6 +15,7 @@ Route::get('/', function () {
 });
 
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard')->middleware('auth');
+// Route::get('barang', [BarangController::class, 'index'])->name('barang')->middleware('auth');
 
 
 //route resource for products

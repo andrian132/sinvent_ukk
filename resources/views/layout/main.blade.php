@@ -68,14 +68,14 @@
             <!-- <hr class="sidebar-divider my-0"> -->
             
             <li class="nav-item active">
-                <a class="nav-link" href="kategori">
+                <a class="nav-link" href="{{ route('kategori.index') }}">
                     <i class="fa fa-user-circle"></i>
                     <span>Kategori</span>
                 </a>
             </li>
 
             <li class="nav-item active">
-                <a class="nav-link" href="barang">
+                <a class="nav-link" href="{{ route('barang.index') }}">
                     <i class="fa fa-user-circle"></i>
                     <span>Barang</span>
                 </a>
@@ -89,14 +89,14 @@
             </li> -->
 
             <li class="nav-item active">
-                <a class="nav-link" href="barangmasuk">
+                <a class="nav-link" href="{{ route('barangmasuk.index') }}">
                     <i class="fa fa-user-circle"></i>
                     <span>Barang Masuk</span>
                 </a>
             </li>
            
             <li class="nav-item active">
-                <a class="nav-link" href="barangkeluar">
+                <a class="nav-link" href="{{ route('barangkeluar.index') }}">
                     <i class="fa fa-user-circle"></i>
                     <span>Barang Keluar</span>
                 </a>
